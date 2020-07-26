@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#FFFFFF">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:background="#FFFFFF">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/imagenpergmail"
+                android:layout_width="80dp"
+                android:layout_height="93dp"
+                android:layout_below="@+id/imagecuerpo"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/userm" />
+
+            <TextView
+                android:id="@+id/subtitulogmail"
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="42dp"
+                android:layout_marginEnd="101dp"
+                android:layout_toEndOf="@+id/imagenperfil"
+                android:text="Login exitoso SGA" />
+
+            <ImageView
+                android:id="@+id/destacadosgmail"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="11dp"
+                app:srcCompat="@drawable/ic_destacados" />
+
+            <TextView
+                android:id="@+id/cuerpogmail"
+                android:layout_width="253dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="45dp"
+                android:layout_toEndOf="@+id/imagenperfil"
+                android:text="Mensaje del sistema de gestión Acad..." />
+
+            <TextView
+                android:id="@+id/titulogmail"
+                android:layout_width="190dp"
+                android:layout_height="23dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="81dp"
+                android:layout_toEndOf="@+id/imagemsmgmail"
+                android:text="SGA" />
+
+            <TextView
+                android:id="@+id/horagmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="20dp"
+                android:text="18:39" />
+
+            <ImageView
+                android:id="@+id/imagemsmgmail"
+                android:layout_width="25dp"
+                android:layout_height="22dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="112dp"
+                android:layout_marginTop="16dp"
+                tools:srcCompat="@drawable/etiquetasms" />
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
